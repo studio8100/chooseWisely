@@ -1,7 +1,24 @@
 {
+  "name": "choose-wisely",
+  "version": "1.0.0",
+  "description": "Welcome To 'Choose Wisely' Game!",
+  "scripts": {
+    "start": "tailwindcss -o ./build/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studio8100/chooseWisely.git"
+  },
+  "keywords": [],
+  "author": "Studio8100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studio8100/chooseWisely/issues"
+  },
+  "homepage": "https://github.com/studio8100/chooseWisely#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
+    "@tailwindcss/jit": "^0.1.10",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.15"
+    "tailwindcss": "^2.2.19"
   }
 }
